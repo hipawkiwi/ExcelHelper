@@ -60,6 +60,7 @@ namespace HtmlTextExtractor
                 Console.WriteLine("An error occurred: " + ex.Message);
             }
 
+            // return path of result file
             return resultFilePath;
         }
     }

@@ -5,6 +5,13 @@ using HtmlAgilityPack; // Make sure to install the HtmlAgilityPack NuGet package
 
 namespace HtmlTextExtractor
 {
+
+    public class Foo
+    {
+        private string Name {get;set}
+        private string Surname {get;set;}
+    }
+    
     public class InstagramMessagingExtract
     {
         public string ExtractMessages(string zipFilePath)
